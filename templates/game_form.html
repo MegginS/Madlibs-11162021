@@ -2,12 +2,13 @@
 <html>
 <head>
   <title>Game</title>
+  <link rel="stylesheet" href="../static/madlibs.css">
 </head>
 <body>
 
 <h1>Game Form</h1>
 
-<form action="/game_play">
+<form action="/game_play" method="POST">
   I need a color:<input type="text" name="color">
   <br>
   Gimme a noun: <input type="text" name="noun">
@@ -16,6 +17,15 @@
   <br>
   An adjective? <input type="text" name="adjective">
   <br>
+  I need a sound:<input type="text" name="sound">
+  <br>
+  Gimme a shape: <input type="text" name="shape">
+  <br>
+  Type of Animal? <input type="text" name="animal">
+  <br>
+  Place <input type="text" name="place">
+  <br>
+
   <input type="submit">
 
 </form>
